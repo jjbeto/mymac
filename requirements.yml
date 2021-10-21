@@ -1,0 +1,9 @@
+---
+roles:
+  - name: elliotweiser.osx-command-line-tools
+  # Install a role from GitHub
+  - name: jjbeto.dotfiles
+    src: git@github.com:jjbeto/dotfiles.git
+    scm: git
+collections:
+  - name: geerlingguy.mac
