@@ -52,17 +52,21 @@ homebrew_installed_packages:
   - kubernetes-cli
   - node
   - nvm
+  - pv # progress bar on commandline: https://www.ivarch.com/programs/pv.shtml
   - python@3.9
   - qt
   - cowsay
   - readline
   - openssl
+  - rust
   - sshpass
   - terraform
   - tor
   - wget
+  - xz # decompression for images/tar
   - zsh
   - zsh-history-substring-search
+  - c-blosc # fix clang/gcc call to install numpy
 
 homebrew_taps:
   - homebrew/core
